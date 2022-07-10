@@ -2,8 +2,7 @@ const http = require("http");
 const {readFileSync} =require("fs");
 //get html file 
 const homePage = readFileSync("./index.html");
-
-
+const image = readFileSync("./source/image/image3.jpg");
 const server = http.createServer((req,res)=>{
     console.log(req.url);
     const url = req.url;

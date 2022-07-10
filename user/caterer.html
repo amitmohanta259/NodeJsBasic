@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css" integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
+    <link rel="stylesheet" href="../source/css/style.css">
+    <style>
+        a{
+            text-decoration: none;
+        }
+    </style>
+    <title>Dashboard</title>
+</head>
+<body>
+    <!-- Navbar start-->
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="../index.html">
+                <img src="http://clipart-library.com/images_k/chef-hat-transparent-png/chef-hat-transparent-png-12.png" width="30" height="30" class="d-inline-block align-top" alt="" loading="lazy">
+                Chef Point
+          </a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          
+          
+          <div class="collapse navbar-collapse" id="navbar">
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
+              </li>
+              
+              <!-- Cuisin end -->
+              <li class="nav-item dropdown  menu-area">
+                <a class="nav-link dropdown-toggle" href="#" id="mega-one" role="button" data-toggle="dropdown" aria-expanded="false">
+                    Cuisines
+                </a>
+                <div class="dropdown-menu mega-area" aria-labelledby="mega-one">
+                  <div class="row">
+                        <div class="col-sm-4 col-lg-2">
+                            <h5>Indian</h5>
+                            <a href="#" class="dropdown-item">Odisha</a>
+                            <a href="#" class="dropdown-item">North</a>
+                            <a href="#" class="dropdown-item">South</a>
+                            <a href="#" class="dropdown-item">Kashmiri</a>
+                            <a href="#" class="dropdown-item">Jain</a>
+                        </div>
+                        <div class="col-sm-4 col-lg-2">
+                            <h5>France</h5>
+                            <a href="#" class="dropdown-item">France dish1</a>
+                            <a href="#" class="dropdown-item">France dish2</a>
+                            <a href="#" class="dropdown-item">France dish3</a>
+                            <a href="#" class="dropdown-item">France dish4</a>
+                        </div>
+                        <div class="col-sm-4 col-lg-2">
+                            <h5>Food Paradise</h5>
+                            <p>Here we can find all kinds of food</p>
+                        </div>
+                        <div class="col-sm-4 col-lg-2">
+                            <h5>Image</h5>
+                            <img src="source/image/image3.jpg" style="width: 90%;">
+                        </div>
+                        <div class="col-sm-4 col-lg-2">
+                            <h5>American</h5>
+                            <a href="#" class="dropdown-item">American Pasta</a>
+                            <a href="#" class="dropdown-item">American Roll</a>
+                            <a href="#" class="dropdown-item">American pasta</a>
+                            <a href="#" class="dropdown-item">American Corn</a>
+                        </div>
+                        <div class="col-sm-4 col-lg-2">
+                            <h5>Image</h5>
+                            <img src="source/image/image4.jpg" style="width: 90%;">
+                        </div>
+                        <div class="col-sm-4 col-lg-2">
+                            <h5>Italian</h5>
+                            <a href="#" class="dropdown-item">Italian Pasta</a>
+                            <a href="#" class="dropdown-item">Italian Magie</a>
+                            <a href="#" class="dropdown-item">Italian Sauce</a>
+                            <a href="#" class="dropdown-item">Italian Corn</a>
+                        </div>
+                        <div class="col-sm-4 col-lg-2">
+                            <h5>Russian</h5>
+                            <a href="#" class="dropdown-item">Russian Vodka</a>
+                            <a href="#" class="dropdown-item">Russian Snacks</a>
+                            <a href="#" class="dropdown-item">Russian Barbique</a>
+                            <a href="#" class="dropdown-item">Russian Roll</a>
+                        </div>
+                        <div class="col-sm-4 col-lg-2">
+                            <h5>Food Paradise</h5>
+                            <p>Here we can find all kinds of food</p>
+                        </div>
+                        <div class="col-sm-4 col-lg-2">
+                            <h5>Image</h5>
+                            <img src="source/image/image2.jpg" style="width: 90%;">
+                        </div>
+                        <div class="col-sm-4 col-lg-2">
+                            <h5>Arab</h5>
+                            <a href="#" class="dropdown-item">Arab Kabab</a>
+                            <a href="#" class="dropdown-item">Arab Hamus</a>
+                            <a href="#" class="dropdown-item">Arab Biryani</a>
+                            <a href="#" class="dropdown-item">Arab Chai</a>
+                        </div>
+                        <div class="col-sm-4 col-lg-2">
+                            <h5>Image</h5>
+                            <img src="source/image/image1.jpg" style="width: 90%;">
+                        </div>
+                  </div>
+                </div>
+              </li>
+              <!-- Cuisin end -->
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">About US</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Contact Us</a>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input class="form-control mr-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+    </nav>
+    <!-- Navbar end -->
+
+    <!-- cuisin list -->
+    <div class="container-fluid" style="background-color:whitesmoke;">
+        <div class="row row-cols-1 row-cols-lg-3">
+            
+            <!-- Food Package Start -->
+            <div class="col col-lg-9">
+                <div class="row row-cols-1 row-cols-md-3 row-cols-lg-4 g-2 g-lg-3">
+                    <div class="col pt-2">
+                      <div class="p-3 border bg-light">
+                        <div class="card" style="width: 100%">
+                            <img src="../source/chefs_and_caterers/chef1.jpg" class="card-img-top" alt="..." style="height: 12rem;">
+                            <div class="card-body">
+                              <h5 class="card-title"><a href="profile.html">Indian Dhaba</a></h5>
+                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            </div>
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item">Cras justo odio</li>
+                                <li class="list-group-item">Dapibus ac facilisis in</li>
+                                <li class="list-group-item">Vestibulum at eros</li>
+                            </ul>
+                            <div class="card-body">
+                                <a href="#" class="card-link">Add To Queue</a>
+                                <a href="booking_details.html" class="card-link">Select</a>
+                            </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col pt-2">
+                      <div class="p-3 border bg-light">
+                        <div class="card" style="width: 100%;">
+                            <img src="../source/chefs_and_caterers/chef2.jpg" class="card-img-top" alt="..." style="height: 12rem;">
+                            <div class="card-body">
+                              <h5 class="card-title"><a href="profile.html">Singh Dhaba</a></h5>
+                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            </div>
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item">Cras justo odio</li>
+                                <li class="list-group-item">Dapibus ac facilisis in</li>
+                                <li class="list-group-item">Vestibulum at eros</li>
+                            </ul>
+                            <div class="card-body">
+                                <a href="#" class="card-link">Add To Queue</a>
+                                <a href="booking_details.html" class="card-link">Select</a>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                    <div class="col pt-2">
+                      <div class="p-3 border bg-light">
+                        <div class="card" style="width: 100%;">
+                            <img src="../source/chefs_and_caterers/chef3.jpg" class="card-img-top" alt="..." style="height: 12rem;">
+                            <div class="card-body">
+                              <h5 class="card-title"><a href="profile.html">Roti Wala</a></h5>
+                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            </div>
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item">Cras justo odio</li>
+                                <li class="list-group-item">Dapibus ac facilisis in</li>
+                                <li class="list-group-item">Vestibulum at eros</li>
+                            </ul>
+                            <div class="card-body">
+                                <a href="#" class="card-link">Add To Queue</a>
+                                <a href="booking_details.html" class="card-link">Select</a>
+                            </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col pt-2">
+                      <div class="p-3 border bg-light">
+                        <div class="card" style="width: 100%;">
+                            <img src="../source/chefs_and_caterers/chef4.jpg" class="card-img-top" alt="..." style="height: 12rem;">
+                            <div class="card-body">
+                              <h5 class="card-title"><a href="profile.html">Afgani Dhaba</a></h5>
+                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            </div>
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item">Cras justo odio</li>
+                                <li class="list-group-item">Dapibus ac facilisis in</li>
+                                <li class="list-group-item">Vestibulum at eros</li>
+                            </ul>
+                            <div class="card-body">
+                                <a href="#" class="card-link">Add To Queue</a>
+                                <a href="booking_details.html" class="card-link">Select</a>
+                            </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col pt-2">
+                      <div class="p-3 border bg-light">
+                        <div class="card" style="width: 100%;">
+                            <img src="../source/chefs_and_caterers/chef5.jpg" class="card-img-top" alt="..." style="height: 12rem;">
+                            <div class="card-body">
+                              <h5 class="card-title"><a href="profile.html">Odiya Point</a></h5>
+                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            </div>
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item">Cras justo odio</li>
+                                <li class="list-group-item">Dapibus ac facilisis in</li>
+                                <li class="list-group-item">Vestibulum at eros</li>
+                            </ul>
+                            <div class="card-body">
+                                <a href="#" class="card-link">Add To queue</a>
+                                <a href="booking_details.html" class="card-link">Select</a>
+                            </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col pt-2">
+                      <div class="p-3 border bg-light">
+                        <div class="card" style="width: 100%;">
+                            <img src="../source/chefs_and_caterers/chef6.jpg" class="card-img-top" alt="..." style="height: 12rem;">
+                            <div class="card-body">
+                              <h5 class="card-title"><a href="profile.html">Andhra Dhaba</a></h5>
+                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            </div>
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item">Cras justo odio</li>
+                                <li class="list-group-item">Dapibus ac facilisis in</li>
+                                <li class="list-group-item">Vestibulum at eros</li>
+                            </ul>
+                            <div class="card-body">
+                                <a href="#" class="card-link">Add To Queue</a>
+                                <a href="booking_details.html" class="card-link">Select</a>
+                            </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col pt-2">
+                      <div class="p-3 border bg-light">
+                        <div class="card" style="width: 100%;">
+                            <img src="../source/chefs_and_caterers/chef7.jpg" class="card-img-top" alt="..." style="height: 12rem;">
+                            <div class="card-body">
+                              <h5 class="card-title"><a href="profile.html">Cuisin Point</a></h5>
+                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            </div>
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item">Cras justo odio</li>
+                                <li class="list-group-item">Dapibus ac facilisis in</li>
+                                <li class="list-group-item">Vestibulum at eros</li>
+                            </ul>
+                            <div class="card-body">
+                                <a href="#" class="card-link">Add To Queue</a>
+                                <a href="booking_details.html" class="card-link">Select</a>
+                            </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col pt-2">
+                      <div class="p-3 border bg-light">
+                        <div class="card" style="width: 100%;">
+                            <img src="../source/chefs_and_caterers/chef8.jpg" class="card-img-top" alt="..." style="height: 12rem;">
+                            <div class="card-body">
+                              <h5 class="card-title"><a href="profile.html">Sea Food Center</a></h5>
+                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            </div>
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item">Cras justo odio</li>
+                                <li class="list-group-item">Dapibus ac facilisis in</li>
+                                <li class="list-group-item">Vestibulum at eros</li>
+                            </ul>
+                            <div class="card-body">
+                                <a href="#" class="card-link">Add To Queue</a>
+                                <a href="booking_details.html" class="card-link">Select</a>
+                            </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col pt-2">
+                      <div class="p-3 border bg-light">
+                        <div class="card" style="width: 100%;">
+                            <img src="../source/chefs_and_caterers/chef9.jpg" class="card-img-top" alt="..." style="height: 12rem;">
+                            <div class="card-body">
+                              <h5 class="card-title"><a href="profile.html">Jain Food Court</a></h5>
+                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            </div>
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item">Cras justo odio</li>
+                                <li class="list-group-item">Dapibus ac facilisis in</li>
+                                <li class="list-group-item">Vestibulum at eros</li>
+                            </ul>
+                            <div class="card-body">
+                                <a href="#" class="card-link">Add To Queue</a>
+                                <a href="booking_details.html" class="card-link">Select</a>
+                            </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col pt-2">
+                      <div class="p-3 border bg-light">
+                        <div class="card" style="width: 100%;">
+                            <img src="../source/chefs_and_caterers/chef10.jpg" class="card-img-top" alt="..." style="height: 12rem;">
+                            <div class="card-body">
+                              <h5 class="card-title"><a href="profile.html">Ambravi</a> </h5>
+                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            </div>
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item">Cras justo odio</li>
+                                <li class="list-group-item">Dapibus ac facilisis in</li>
+                                <li class="list-group-item">Vestibulum at eros</li>
+                            </ul>
+                            <div class="card-body">
+                                <a href="#" class="card-link">Add To queue</a>
+                                <a href="booking_details.html" class="card-link">Select</a>
+                            </div>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+
+                <!-- pagination starts-->
+                <div class="row row-cols-2 row-cols-lg-2 g-2 g-lg-3 my-1">
+                    <div class="col col-lg-3 col-md-3 col-3">
+                      <div class="py-2 ">
+                              Page 1 of 50
+                      </div>
+                    </div>
+                    <div class="col col-lg-9 col-md-9 col-sm-9">
+                      <div class="py-2  ">
+                        <nav aria-label="...">
+                            <ul class="pagination">
+                              <li class="page-item disabled">
+                                <span class="page-link">&laquo;</span>
+                              </li>
+                              <li class="page-item"><a class="page-link" href="#">1</a></li>
+                              <li class="page-item active" aria-current="page">
+                                <span class="page-link">
+                                  2
+                                  <span class="sr-only">(current)</span>
+                                </span>
+                              </li>
+                              <li class="page-item"><a class="page-link" href="#">3</a></li>
+                              <li class="page-item"><a class="page-link" href="#">4</a></li>
+                              <!-- <li class="page-item"><a class="page-link" href="#">5</a></li>
+                              <li class="page-item"><a class="page-link" href="#">6</a></li> -->
+                              <li class="page-item">
+                                <a class="page-link" href="#">&raquo;  </a>
+                              </li>
+                            </ul>
+                          </nav>
+                      </div>
+                    </div>
+                </div>  
+                <!-- pagination ends-->
+            </div>
+            <!-- Food Package End -->
+
+            <!--Ads and Promos start -->
+            <div class="col col-lg-3">
+                <div class="card bg-dark text-black my-3">
+                    <img src="../source/image/image8.jpg" class="card-img" alt="...">
+                    <div class="card-img-overlay">
+                      <h5 class="card-title text-right" style="padding-top: 40%;">Advertisement</h5>
+                      <p class="card-text text-right">Taste the unthinkable</p>
+                    </div>
+                </div>
+                <div class="card bg-dark text-black my-3">
+                    <img src="../source/image/image8.jpg" class="card-img" alt="...">
+                    <div class="card-img-overlay">
+                      <h5 class="card-title text-right" style="padding-top: 40%;">Advertisement</h5>
+                      <p class="card-text text-right">Taste the unthinkable</p>
+                    </div>
+                </div>
+                <div class="card bg-dark text-black my-3">
+                    <img src="../source/image/image8.jpg" class="card-img" alt="...">
+                    <div class="card-img-overlay">
+                      <h5 class="card-title text-right" style="padding-top: 40%;">Advertisement</h5>
+                      <p class="card-text text-right">Taste the unthinkable</p>
+                    </div>
+                </div>
+                <div class="card bg-dark text-black my-3">
+                    <img src="../source/image/image8.jpg" class="card-img" alt="...">
+                    <div class="card-img-overlay">
+                      <h5 class="card-title text-right" style="padding-top: 40%;">Advertisement</h5>
+                      <p class="card-text text-right">Taste the unthinkable</p>
+                    </div>
+                </div>
+            </div>   
+            <!--Ads and Promos end -->
+          </div>
+    </div>
+   
+<!-- Footer Start -->
+<div class="container-fluid" style="background-color: lightgrey;">
+    <div class="container" >
+        <div class="row row-cols-1 row-cols-lg-1 g-2 g-lg-3" >
+          <div class="col">
+            <div class="p-3  bg-black">
+                <h4>
+                    <img src="http://clipart-library.com/images_k/chef-hat-transparent-png/chef-hat-transparent-png-12.png" width="30" height="30" class="d-inline-block align-top" alt="" loading="lazy">
+                    Chef Point
+                </h4>
+            </div>
+          </div>
+        </div>
+
+        <div class="row row-cols-1 row-cols-lg-5" >
+            
+            <div class="col" >
+                <h5>Company</h5>
+                <a href="#" class="dropdown-item"> About</a>
+                <a href="#" class="dropdown-item">Blog</a>
+                <a href="#" class="dropdown-item">Careers</a>
+                <a href="#" class="dropdown-item">Report Fraud</a>
+                <a href="#" class="dropdown-item">Contact</a>
+            </div>
+            <div class="col">
+                <h5>For Caterers</h5>
+                <a href="#" class="dropdown-item">Become an Affiliated</a>
+                <a href="#" class="dropdown-item">Advertise your Brand</a>
+                <a href="#" class="dropdown-item">Complains</a>
+                <a href="#" class="dropdown-item">Help</a>
+            </div>
+            <div class="col">
+                <h5>For You</h5>
+                <a href="#" class="dropdown-item">Terms</a>
+                <a href="#" class="dropdown-item">Privacy</a>
+                <a href="#" class="dropdown-item">Security</a>
+                <a href="#" class="dropdown-item">Map</a>
+        
+            </div>
+            <div class="col">
+                <h5>Socail Media</h5>
+                <a href="#" class="dropdown-item px-5"><ion-icon name="logo-facebook"></ion-icon></a>
+                <a href="#" class="dropdown-item px-5"><ion-icon name="logo-twitter"></ion-icon></a>
+                <a href="#" class="dropdown-item px-5"><ion-icon name="logo-instagram"></ion-icon></a>
+            </div>
+            <div class="col">
+                <h5>Mobile Apps</h5>
+                <a href="#" class="dropdown-item px-5"><ion-icon name="logo-android"></ion-icon></a>
+                <a href="#" class="dropdown-item px-5"><ion-icon name="logo-apple"></ion-icon></a>
+            </div>
+        </div>
+
+        <div class="row row-cols-1 row-cols-lg-1 g-2 g-lg-3" >
+            <div class="col border-top pt-3 pd-2">
+              <p>By continuing past this page, you agree to our Terms of Service, Cookie Policy, Privacy Policy and Content Policies. All trademarks are properties of their respective owners. 2020 © Creative Arts Media Pvt Ltd. All rights reserved.</p>
+            </div>
+        </div>
+        
+      </div>
+</div>
+<!-- Footer End -->
+
+
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js" integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/" crossorigin="anonymous"></script>     
+<!-- https://ionicons.com/ cdn links -->
+<script src="https://unpkg.com/ionicons@5.1.2/dist/ionicons.js"></script>
+</body>
+</html>

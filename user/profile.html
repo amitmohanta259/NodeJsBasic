@@ -1,0 +1,616 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css" integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
+    <!-- custom css -->
+    <link rel="stylesheet" href="../source/css/style.css">
+    <title>Profile</title>
+</head>
+<body>
+    <!-- Navbar start-->
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="../index.html">
+                <img src="http://clipart-library.com/images_k/chef-hat-transparent-png/chef-hat-transparent-png-12.png" width="30" height="30" class="d-inline-block align-top" alt="" loading="lazy">
+                Chef Point
+          </a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          
+          
+          <div class="collapse navbar-collapse" id="navbar">
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
+              </li>
+              
+              <!-- Cuisin end -->
+              <li class="nav-item dropdown  menu-area">
+                <a class="nav-link active" aria-current="page" href="menu.html">
+                    Cuisines
+                </a>
+              </li>
+              <!-- Cuisin end -->
+              <!-- <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">About US</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Contact Us</a>
+              </li> -->
+            </ul>
+            <form class="d-flex">
+              <input class="form-control mr-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+    </nav>
+    <!-- Navbar end -->
+
+    <!-- Body Starts -->
+    <div class="container-fluid" style="background-color:whitesmoke;">
+        <div class="row row-cols-1 row-cols-lg-3 pb-3">
+            <!-- Profile Start -->
+            <div class="col col-lg-3">
+                <!-- Card 1 starts -->
+                <div class="card my-3" style="background-color: whitesmoke; border-color: whitesmoke;" >
+                    <img src="../source/chefs_and_caterers/chef12.jpg" class="card-img-top" alt="..." height="300rem" style="border-radius: 50%;" >
+                    <div class="card-body">
+                        <h5 class="card-title text-center">Singh Dhaba</h5>
+                        <p class="card-text">Address: B269, Sector-2, Nalco towmship, Damanjodi Koraput ,Odisha </p>
+                        <p class="card-text">Pin Code: 763008 </p>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">Owner : Jasmit Singh</li>
+                        <li class="list-group-item">
+                            Rating :
+                            <ion-icon name="star" style="color:green;"></ion-icon>
+                            <ion-icon name="star" style="color:green;"></ion-icon>
+                            <ion-icon name="star" style="color:green;"></ion-icon>
+                            <ion-icon name="star" style="color:green;"></ion-icon> 
+                            (900)  
+                        </li>
+                        <li class="list-group-item">Experience : 20 years</li>
+                        <li class="list-group-item">Supporting Cook : 20</li>
+                        <li class="list-group-item">Events : 2000</li>
+                        <li class="list-group-item">Phone : 9876543210</li>
+
+                        
+                        <li class="list-group-item">Mail : singh@chefpoint.com</li>
+                    </ul>
+    
+                </div>
+                  <!-- Card 1 ends -->
+    
+            </div>
+            <!-- Profile Ends -->
+    
+            <!-- Food Package Start -->
+            <div class="col col-lg-5">
+                  <div class="card my-3">
+                    <div class="container">
+                       <!-- Image and description -->
+                        <div class="row row-cols-1 row-cols-lg-2 align-items-start  my-2">
+                          <div class="col">
+                            <img src="../source/image/image2.jpg" style="height: 10rem;" class="card-img-top" alt="...">
+                          </div>
+                          <div class="col">
+                            <h5>South Indian Pack</h5>
+                            <div class="row align-items-start">
+                                <div class="col-1">
+                                    <ion-icon name="star"></ion-icon>
+                                </div>
+                                <div class="col-1">
+                                    <span class="badge bg-success">5 (1125)</span>
+                                </div>
+                            </div>
+                          </div>
+                        </div> 
+    
+                        <!-- Cousin list,price per plate -->
+                        <div class="row row-cols-2 row-cols-lg-2 align-items-start border-top my-2">
+                            <div class="col-lg-3 col-md-3 col-sm-3">
+                                <div class="p1">MENU</div>
+                            </div>
+                            <div class="col-lg-9 col-md-9 col-sm-9">
+                                <div class="p-1">tamarind rice, arachu vitta sambar, avial with Kerala red rice, bendekaayi gojju, mango kuzhambu</div>
+                            </div>
+                            <div class="col-lg-3 col-md-3 col-sm-3">
+                                <div class="p-1">COST</div>
+                            </div>
+                            <div class="col-lg-9 col-md-9 col-sm-9">
+                                <div class="p-1">RS 120 (plate)</div>
+                            </div>
+                        </div>
+                        <div class="row row-cols-2 row-cols-lg-2 g-2 g-lg-3 my-1">
+                            <!-- <div class="col border">
+                              <div class="py-2  ">
+                                  <a href="" style="text-decoration: none;">
+                                      Call
+                                  </a>
+                              </div>
+                            </div> -->
+                            <div class="col border">
+                              <div class="py-2  text-center">
+                                  <a href="" style="text-decoration: none;" data-toggle="modal" data-target="#staticBackdrop">
+                                    Menu
+                                  </a>
+                                  <!-- Modal -->
+                                  <div class="modal fade" id="staticBackdrop" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                                    <div class="modal-dialog modal-lg">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                            <h5 class="modal-title" id="staticBackdropLabel">Menu</h5>
+                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                <span aria-hidden="true">&times;</span>
+                                            </button>
+                                            </div>
+                                            <div class="modal-body text-left">
+                                                
+                                                <div class="container overflow-hidden">
+                                                    <div class="row gy-5">
+                                                      <div class="col-6">
+                                                        <div class="p-3 border bg-light" >
+                                                            <div class="list-group">
+                                                                <h6>Main Course</h6>
+                                                                <label class="list-group-item">
+                                                                  <input class="form-check-input mr-1" type="checkbox" value="" checked>
+                                                                  Cras justo odio
+                                                                </label>
+                                                                <label class="list-group-item">
+                                                                  <input class="form-check-input mr-1" type="checkbox" value="" checked>
+                                                                  Dapibus ac facilisis in
+                                                                </label>
+                                                                <label class="list-group-item">
+                                                                  <input class="form-check-input mr-1" type="checkbox" value="" checked>
+                                                                  Morbi leo risus
+                                                                </label>
+                                                                <label class="list-group-item">
+                                                                  <input class="form-check-input mr-1" type="checkbox" value="" checked>
+                                                                  Porta ac consectetur ac
+                                                                </label>
+                                                                <label class="list-group-item">
+                                                                  <input class="form-check-input mr-1" type="checkbox" value="" checked>
+                                                                  Vestibulum at eros
+                                                                </label>
+                                                            </div>
+                                                        </div>
+                                                      </div>
+                                                      <div class="col-6">
+                                                        <div class="p-3 border bg-light">
+                                                            <div class="list-group">
+                                                                <h6>Desserts</h6>
+                                                                <label class="list-group-item">
+                                                                  <input class="form-check-input mr-1" type="checkbox" value="" checked>
+                                                                  Cras justo odio
+                                                                </label>
+                                                                <label class="list-group-item">
+                                                                  <input class="form-check-input mr-1" type="checkbox" value="" checked>
+                                                                  Dapibus ac facilisis in
+                                                                </label>
+                                                                <label class="list-group-item">
+                                                                  <input class="form-check-input mr-1" type="checkbox" value="" checked>
+                                                                  Morbi leo risus
+                                                                </label>
+                                                                <label class="list-group-item">
+                                                                  <input class="form-check-input mr-1" type="checkbox" value="" checked>
+                                                                  Porta ac consectetur ac
+                                                                </label>
+                                                                <label class="list-group-item">
+                                                                  <input class="form-check-input mr-1" type="checkbox" value="" checked>
+                                                                  Vestibulum at eros
+                                                                </label>
+                                                            </div>
+                                                        </div>
+                                                      </div>
+                                                      <div class="col-6">
+                                                        <div class="p-3 border bg-light">
+                                                            <div class="list-group">
+                                                                <h6>Snacks</h6>
+                                                                <label class="list-group-item">
+                                                                  <input class="form-check-input mr-1" type="checkbox" value="" checked>
+                                                                  Cras justo odio
+                                                                </label>
+                                                                <label class="list-group-item">
+                                                                  <input class="form-check-input mr-1" type="checkbox" value="" checked>
+                                                                  Dapibus ac facilisis in
+                                                                </label>
+                                                                <label class="list-group-item">
+                                                                  <input class="form-check-input mr-1" type="checkbox" value="" checked>
+                                                                  Morbi leo risus
+                                                                </label>
+                                                                <label class="list-group-item">
+                                                                  <input class="form-check-input mr-1" type="checkbox" value="" checked>
+                                                                  Porta ac consectetur ac
+                                                                </label>
+                                                                <label class="list-group-item">
+                                                                  <input class="form-check-input mr-1" type="checkbox" value="" checked>
+                                                                  Vestibulum at eros
+                                                                </label>
+                                                            </div>
+                                                        </div>
+                                                      </div>
+                                                      <div class="col-6">
+                                                        <div class="p-3 border bg-light">
+                                                            <div class="list-group">
+                                                                <h6>Drinks</h6>
+                                                                <label class="list-group-item">
+                                                                  <input class="form-check-input mr-1" type="checkbox" value="" checked>
+                                                                  Cras justo odio
+                                                                </label>
+                                                                <label class="list-group-item">
+                                                                  <input class="form-check-input mr-1" type="checkbox" value="" checked>
+                                                                  Dapibus ac facilisis in
+                                                                </label>
+                                                                <label class="list-group-item">
+                                                                  <input class="form-check-input mr-1" type="checkbox" value="" checked>
+                                                                  Morbi leo risus
+                                                                </label>
+                                                                <label class="list-group-item">
+                                                                  <input class="form-check-input mr-1" type="checkbox" value="" checked>
+                                                                  Porta ac consectetur ac
+                                                                </label>
+                                                                <label class="list-group-item">
+                                                                  <input class="form-check-input mr-1" type="checkbox" value="" checked>
+                                                                  Vestibulum at eros
+                                                                </label>
+                                                            </div>
+                                                        </div>
+                                                      </div>
+                                                    </div>
+                                                </div>
+                                                
+    
+                                            </div>
+                                            <div class="modal-footer">
+                                            <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                                            <button type="button" class="btn btn-success">Save</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                  </div>
+                              </div>
+                            </div>
+                            <div class="col border">
+                              <div class="py-2  text-center">
+                                  <a href="booking_details.html" style="text-decoration: none;">
+                                      Select
+                                  </a>
+                              </div>
+                            </div>
+                        </div>       
+                      </div>
+                  </div>
+                  <!-- end of card 1 -->
+                  <div class="card my-3">
+                    <div class="container">
+                       <!-- Image and description -->
+                        <div class="row row-cols-1 row-cols-lg-2 align-items-start  my-2">
+                          <div class="col">
+                            <img src="../source/image/image1.jpg" style="height: 10rem;" class="card-img-top" alt="...">
+                          </div>
+                          <div class="col">
+                            <h5>Afgani Pack</h5>
+                            <div class="row align-items-start">
+                                <div class="col-1">
+                                    <ion-icon name="star"></ion-icon>
+                                </div>
+                                <div class="col-1">
+                                    <span class="badge bg-success">5 (1125)</span>
+                                </div>
+                            </div>
+                          </div>
+                        </div> 
+    
+                        <!-- Cousin list,price per plate -->
+                        <div class="row row-cols-2 row-cols-lg-2 align-items-start border-top my-2">
+                            <div class="col-lg-3 col-md-3 col-sm-3">
+                                <div class="p1">MENU</div>
+                            </div>
+                            <div class="col-lg-9 col-md-9 col-sm-9">
+                                <div class="p-1">tamarind rice, arachu vitta sambar, avial with Kerala red rice, bendekaayi gojju, mango kuzhambu</div>
+                            </div>
+                            <div class="col-lg-3 col-md-3 col-sm-3">
+                                <div class="p-1">COST</div>
+                            </div>
+                            <div class="col-lg-9 col-md-9 col-sm-9">
+                                <div class="p-1">RS 120 (plate)</div>
+                            </div>
+                        </div>
+                        <div class="row row-cols-2 row-cols-lg-2 g-2 g-lg-3 my-1">
+                            <!-- <div class="col border">
+                              <div class="py-2 ">
+                                  <a href="" style="text-decoration: none;">
+                                      Call
+                                  </a>
+                              </div>
+                            </div> -->
+                            <div class="col border">
+                              <div class="py-2  text-center">
+                                  <a href="" style="text-decoration: none;" data-toggle="modal" data-target="#staticBackdrop">
+                                    Menu
+                                  </a>
+                              </div>
+                            </div>
+                            <div class="col border">
+                              <div class="py-2  text-center">
+                                <a href="booking_details.html" style="text-decoration: none;">
+                                    Select
+                                </a>
+                              </div>
+                            </div>
+                        </div>       
+                      </div>
+                  </div>
+                  <div class="card my-3">
+                    <div class="container">
+                       <!-- Image and description -->
+                        <div class="row row-cols-1 row-cols-lg-2 align-items-start  my-2">
+                          <div class="col">
+                            <img src="../source/image/image3.jpg" style="height: 10rem;" class="card-img-top" alt="...">
+                          </div>
+                          <div class="col">
+                            <h5>North Indian Package</h5>
+                            <div class="row align-items-start">
+                                <div class="col-1">
+                                    <ion-icon name="star"></ion-icon>
+                                </div>
+                                <div class="col-1">
+                                    <span class="badge bg-success">5 (1125)</span>
+                                </div>
+                            </div>
+                          </div>
+                        </div> 
+    
+                        <!-- Cousin list,price per plate -->
+                        <div class="row row-cols-2 row-cols-lg-2 align-items-start border-top my-2">
+                            <div class="col-lg-3 col-md-3 col-sm-3">
+                                <div class="p1">MENU</div>
+                            </div>
+                            <div class="col-lg-9 col-md-9 col-sm-9">
+                                <div class="p-1">tamarind rice, arachu vitta sambar, avial with Kerala red rice, bendekaayi gojju, mango kuzhambu</div>
+                            </div>
+                            <div class="col-lg-3 col-md-3 col-sm-3">
+                                <div class="p-1">COST</div>
+                            </div>
+                            <div class="col-lg-9 col-md-9 col-sm-9">
+                                <div class="p-1">RS 120 (plate)</div>
+                            </div>
+                        </div>
+                        <div class="row row-cols-2 row-cols-lg-2 g-2 g-lg-3 my-1">
+                            <!-- <div class="col border">
+                              <div class="py-2 ">
+                                  <a href="" style="text-decoration: none;">
+                                      Call
+                                  </a>
+                              </div>
+                            </div> -->
+                            <div class="col border">
+                              <div class="py-2 text-center">
+                                  <a href="" style="text-decoration: none;" data-toggle="modal" data-target="#staticBackdrop">
+                                    Menu
+                                  </a>
+                              </div>
+                            </div>
+                            <div class="col border">
+                              <div class="py-2 text-center">
+                                <a href="booking_details.html" style="text-decoration: none;">
+                                    Select
+                                </a>
+                              </div>
+                            </div>
+                        </div>       
+                      </div>
+                  </div>
+                  <div class="card my-3">
+                    <div class="container">
+                       <!-- Image and description -->
+                        <div class="row row-cols-1 row-cols-lg-2 align-items-start  my-2">
+                          <div class="col">
+                            <img src="../source/image/image8.jpg" style="height: 10rem;" class="card-img-top" alt="...">
+                          </div>
+                          <div class="col">
+                            <h5>Non Veg Pack</h5>
+                            <div class="row align-items-start">
+                                <div class="col-1">
+                                    <ion-icon name="star"></ion-icon>
+                                </div>
+                                <div class="col-1">
+                                    <span class="badge bg-success">5 (1125)</span>
+                                </div>
+                            </div>
+                          </div>
+                        </div> 
+    
+                        <!-- Cousin list,price per plate -->
+                        <div class="row row-cols-2 row-cols-lg-2 align-items-start border-top my-2">
+                            <div class="col-lg-3 col-md-3 col-sm-3">
+                                <div class="p1">MENU</div>
+                            </div>
+                            <div class="col-lg-9 col-md-9 col-sm-9">
+                                <div class="p-1">tamarind rice, arachu vitta sambar, avial with Kerala red rice, bendekaayi gojju, mango kuzhambu</div>
+                            </div>
+                            <div class="col-lg-3 col-md-3 col-sm-3">
+                                <div class="p-1">COST</div>
+                            </div>
+                            <div class="col-lg-9 col-md-9 col-sm-9">
+                                <div class="p-1">RS 120 (plate)</div>
+                            </div>
+                        </div>
+                        <div class="row row-cols-2 row-cols-lg-2 g-2 g-lg-3 my-1">
+                            <!-- <div class="col border">
+                              <div class="py-2  ">
+                                  <a href="" style="text-decoration: none;">
+                                      Call
+                                  </a>
+                              </div>
+                            </div> -->
+                            <div class="col border">
+                              <div class="py-2  text-center">
+                                  <a href="" style="text-decoration: none;" data-toggle="modal" data-target="#staticBackdrop">
+                                    Menu
+                                  </a>
+                              </div>
+                            </div>
+                            <div class="col border">
+                              <div class="py-2  text-center">
+                                <a href="booking_details.html" style="text-decoration: none;">
+                                    Select
+                                </a>
+                              </div>
+                            </div>
+                        </div>       
+                      </div>
+                  </div>
+                  <div class="card my-3">
+                    <div class="container">
+                       <!-- Image and description -->
+                        <div class="row row-cols-1 row-cols-lg-2 align-items-start  my-2">
+                          <div class="col">
+                            <img src="../source/image/image15.jpg" style="height: 10rem;" class="card-img-top" alt="...">
+                          </div>
+                          <div class="col">
+                            <h5>Combo Pack</h5>
+                            <div class="row align-items-start">
+                                <div class="col-1">
+                                    <ion-icon name="star"></ion-icon>
+                                </div>
+                                <div class="col-1">
+                                    <span class="badge bg-success">5 (1125)</span>
+                                </div>
+                            </div>
+                          </div>
+                        </div> 
+    
+                        <!-- Cousin list,price per plate -->
+                        <div class="row row-cols-2 row-cols-lg-2 align-items-start border-top my-2">
+                            <div class="col-lg-3 col-md-3 col-sm-3">
+                                <div class="p1">MENU</div>
+                            </div>
+                            <div class="col-lg-9 col-md-9 col-sm-9">
+                                <div class="p-1">tamarind rice, arachu vitta sambar, avial with Kerala red rice, bendekaayi gojju, mango kuzhambu</div>
+                            </div>
+                            <div class="col-lg-3 col-md-3 col-sm-3">
+                                <div class="p-1">COST</div>
+                            </div>
+                            <div class="col-lg-9 col-md-9 col-sm-9">
+                                <div class="p-1">RS 120 (plate)</div>
+                            </div>
+                        </div>
+                        <div class="row row-cols-2 row-cols-lg-2 g-2 g-lg-3 my-1">
+                            <!-- <div class="col border">
+                              <div class="py-2 ">
+                                  <a href="" style="text-decoration: none;">
+                                      Call
+                                  </a>
+                              </div>
+                            </div> -->
+                            <div class="col border">
+                              <div class="py-2  text-center">
+                                  <a href="" style="text-decoration: none;" data-toggle="modal" data-target="#staticBackdrop">
+                                    Menu
+                                  </a>
+                              </div>
+                            </div>
+                            <div class="col border">
+                              <div class="py-2  text-center">
+                                <a href="booking_details.html" style="text-decoration: none;">
+                                    Select
+                                </a>
+                              </div>
+                            </div>
+                        </div>       
+                      </div>
+                  </div>
+                  <!-- pagination starts-->
+                  <div class="row row-cols-2 row-cols-lg-2 g-2 g-lg-3 my-1">
+                    <div class="col col-lg-3 col-md-3 col-3">
+                      <div class="py-2 ">
+                              Page 1 of 50
+                      </div>
+                    </div>
+                    <div class="col col-lg-9 col-md-9 col-sm-9">
+                      <div class="py-2  ">
+                        <nav aria-label="...">
+                            <ul class="pagination">
+                              <li class="page-item disabled">
+                                <span class="page-link">&laquo;</span>
+                              </li>
+                              <li class="page-item"><a class="page-link" href="#">1</a></li>
+                              <li class="page-item active" aria-current="page">
+                                <span class="page-link">
+                                  2
+                                  <span class="sr-only">(current)</span>
+                                </span>
+                              </li>
+                              <li class="page-item"><a class="page-link" href="#">3</a></li>
+                              <li class="page-item"><a class="page-link" href="#">4</a></li>
+                              <!-- <li class="page-item"><a class="page-link" href="#">5</a></li>
+                              <li class="page-item"><a class="page-link" href="#">6</a></li> -->
+                              <li class="page-item">
+                                <a class="page-link" href="#">&raquo;  </a>
+                              </li>
+                            </ul>
+                          </nav>
+                      </div>
+                    </div>
+                  </div>  
+                  <!-- pagination ends-->
+            </div>
+            <!-- Food Package End -->
+    
+            <!--Ads and Promos start -->
+            <div class="col col-lg-4">
+                <div class="card bg-light text-black my-3">
+                    <img src="../source/image/image1.jpg" class="card-img" alt="...">
+                    <div class="card-img-overlay">
+                      <h5 class="card-title text-right" style="padding-top: 40%;">Advertisement</h5>
+                      <p class="card-text text-right">Taste the unthinkable</p>
+                    </div>
+                </div>
+                <div class="card bg-light text-black my-3">
+                    <img src="../source/image/image1.jpg" class="card-img" alt="...">
+                    <div class="card-img-overlay">
+                      <h5 class="card-title text-right" style="padding-top: 40%;">Advertisement</h5>
+                      <p class="card-text text-right">Taste the unthinkable</p>
+                    </div>
+                </div>
+                <div class="card bg-light text-black my-3">
+                    <img src="../source/image/image1.jpg" class="card-img" alt="...">
+                    <div class="card-img-overlay">
+                      <h5 class="card-title text-right" style="padding-top: 40%;">Advertisement</h5>
+                      <p class="card-text text-right">Taste the unthinkable</p>
+                    </div>
+                </div>
+                <div class="card bg-light text-black my-3">
+                    <img src="../source/image/image1.jpg" class="card-img" alt="...">
+                    <div class="card-img-overlay">
+                      <h5 class="card-title text-right" style="padding-top: 40%;">Advertisement</h5>
+                      <p class="card-text text-right">Taste the unthinkable</p>
+                    </div>
+                </div>
+            </div>   
+            <!--Ads and Promos end -->
+          </div>
+    </div>
+    <!-- Body Ends -->
+
+
+
+
+
+
+
+<!-- Bootstrap cdn link -->
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js" integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/" crossorigin="anonymous"></script>     
+<!-- https://ionicons.com/ cdn links -->
+<script src="https://unpkg.com/ionicons@5.1.2/dist/ionicons.js"></script>
+
+</body>
+</html>
