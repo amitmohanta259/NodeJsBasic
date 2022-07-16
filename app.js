@@ -3,18 +3,12 @@ const app = express();
 
 
 app.use(express.static('./public'))
-//get
-app.get("/",(req,res)=>{
-    res.sendFile(path.resolve(__dirname,'./'))
+
+
+//for Page Not Found
+app.all('*',(req,res)=>{
+    res.status(400).send('Resource Not Found');
 });
-//post
-
-
-//put
-
-//patch
-
-
 
 //app.listen
 app.listen(5003, ()=>{
