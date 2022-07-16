@@ -2,8 +2,12 @@ const express = require("express");
 const app = express();
 
 
-app.use(express.static('./public'))
+app.use(express.static('./public'));
 
+
+app.get('/',(req,res)=>{
+    res.json([{name:'Amit'},{name:'Mohanta'}]);
+});
 
 //for Page Not Found
 app.all('*',(req,res)=>{
