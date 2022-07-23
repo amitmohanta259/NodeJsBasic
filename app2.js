@@ -48,7 +48,6 @@ app.get('/api/v1/query',(req,res)=>{
         res.status(404).json({success:true,data:[]});
     }
     res.status(200).json(sortedProduct);
-    //res.send('hello world');
     
 });
 
